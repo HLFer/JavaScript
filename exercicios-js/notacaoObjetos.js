@@ -7,3 +7,8 @@ const obj = {
 console.log(obj.nome)
 
 Object.freeze(obj)
+
+
+obj.nome = 'Maria'
+
+console.log(obj)
